@@ -1,8 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
-    font-family: sans-serif;
+    box-sizing:content-box;
+    align-items: flex-start;
+}
+
+.container {
+    margin: 40px auto;
+    max-width: 640px;
+    width: 100%;
 }
 
 .container header {
@@ -20,6 +26,14 @@ header h1 {
 header h2 {
     font-family: 'Rajdhani', sans-serif;
     font-size: 25px;
+}
+
+header h3 {
+    margin-top: 16px;
+    padding: 6px;
+    text-decoration: none;
+    font-family:'Rajdhani', sans-serif;
+    font-size: 15px;
 }
 
 input, textarea, button {
